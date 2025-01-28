@@ -458,7 +458,7 @@ body {
   border-radius: 4px;
   
 }
-.icon-buttonSend{
+.icon-buttonsend{
   margin-left: 16px;
 }
 .social-media-box{
@@ -560,7 +560,7 @@ body {
 .user-person:focus{
   border-color: #4D5AE5;
 }
-.icon-buttonPerson{
+.icon-buttonperson{
   position: absolute;
   left: 16px;
   top:50%;
@@ -568,7 +568,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-person:focus + .icon-buttonPerson {
+.user-person:focus + .icon-buttonperson {
   fill: #4D5AE5;
 }
 .user-comment{
@@ -612,11 +612,12 @@ body {
 
 }
 
-input:checked + .userprivacy-span {
+.visually-hidden:checked + label .userprivacy-span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
 }
+
 label .privacy-policy-link {
   color: #4d5ae5;
 }
@@ -635,4 +636,5 @@ label .privacy-policy-link {
   background-color: #4D5AE5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
